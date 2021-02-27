@@ -12,6 +12,8 @@ Description:
 """
 import asyncio
 import logging
+import sys
+import os
 
 import patterns
 import view
@@ -90,5 +92,14 @@ def main(args):
 
 if __name__ == "__main__":
     # Parse your command line arguments here
-    args = None
+    print(sys.argv[1])
+    if len(sys.argv) > 3:
+        print('You have specified too many arguments')
+        sys.exit()
+    elif sys.argv[1] == '--help' or sys.argv[1] == '-h':
+        print('\nusage: irc_client.py [-h] [--server SERVER] [--port PORT]\nDefaults to localhost:8081 if not'
+              'specified \n\noptional arguments:\n  -h, --help\t  Show this help message and exit\n  --server SERVER '
+              'Server to initiate a connection to\n  --port PORT\t  Port to use')
+        sys.exit()
+    args = sys.argv
     main(args)
