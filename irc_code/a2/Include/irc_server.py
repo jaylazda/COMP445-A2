@@ -42,7 +42,6 @@ class IRCServer(patterns.Publisher):
             while True:
                 r_reads, r_writes, r_errors = select.select(self.potential_reads, self.potential_writes, self.potential_errors)
                 for r in r_reads:
-                   
                     # Server socket accepting clients
                     # Add client to client_list, add client to global channel?
                     if r is self.server_socket:
