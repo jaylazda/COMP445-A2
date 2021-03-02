@@ -60,7 +60,6 @@ class IRCClient(patterns.Subscriber):
 
     def process_input(self, msg):
         # Will need to modify this
-        
         if msg.lower().startswith('/connect '):
             self.add_msg(msg)
             split_string = msg.split(" ")
@@ -69,13 +68,13 @@ class IRCClient(patterns.Subscriber):
                 self.server_host = split_string[2]
                 self.server_port = split_string[3]
                 self.real_name = split_string[4]
-                connect(self)
+                self.connect()
 
         if msg.lower().startswith('/msg '):
             self.add_msg(msg)
             split_string = msg.split('/msg ', 1)
             if len(split_string) == 2:
-                send_message(self, msg)
+                self.send_message(self, msg)
 
         if msg.lower().startswith('/quit'):
             # Command that leads to the closure of the process
@@ -125,9 +124,10 @@ class IRCClient(patterns.Subscriber):
             user_msg = " ".join(["USER", self.username, self.server_host, self.server_port])
 
         if not(hasattr(self, 'server_socket')):
-            create_server_socket(self)
+            self.create_server_socket()
             
         msg = ";".join(nick_msg, user_msg)
+        logger.info(f"Msg: {msg}")
         self.server_socket.send(msg)
         self.is_connected = True
 
@@ -150,7 +150,9 @@ class IRCClient(patterns.Subscriber):
     def create_server_socket(self):
         self.server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.server_socket.setblocking(False) #server won't block at server_socket.accept()
-        self.server_socket.connect((self.server_host, self.server_port))
+        logger.info(f"connecting to socket at host:{self.server_host}:{self.server_port}")
+        self.server_socket.connect((str(self.server_host), int(self.server_port)))
+        logger.info(f"connected to server")
         self.potential_reads.append(self.server_socket)
 
 
