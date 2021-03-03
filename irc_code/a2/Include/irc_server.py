@@ -25,10 +25,10 @@ class IRCServer(patterns.Publisher):
         self.server_socket.listen()
 
         #Select vars
-        self.potential_reads = list()
-        self.potential_reads.append(self.server_socket)
-        self.potential_writes = list()
-        self.potential_errors = list()
+        self.inputs = list()
+        self.inputs.append(self.server_socket)
+        self.outputs = list()
+        self.message_queues = {}
         self.outbox = dict()
         self.messages = dict()
         self.read_size = 2**10
@@ -40,72 +40,85 @@ class IRCServer(patterns.Publisher):
         logger.info(f"Running server at localhost:{self.port}")
         try:
             while True:
-                r_reads, r_writes, r_errors = select.select(self.potential_reads, self.potential_writes, self.potential_errors)
-                for r in r_reads:
+                readable, writable, exceptional = select.select(self.inputs, self.outputs, self.inputs)
+                for r in readable:
                     # Server socket accepting clients
                     # Add client to client_list, add client to global channel?
                     if r is self.server_socket:
                         client_socket, addr = r.accept()
                         client_socket.setblocking(0)
+                        self.inputs.append(client_socket)
+                        self.message_queues[r] = queue.Queue()
+
                         print(f"New client @ {addr}")
                         logger.info(f"New client @ {addr}")
-                        self.outbox[client_socket] = "Connected to server!"
-                        self.messages[client_socket] = str()
-                        self.potential_reads.append(client_socket)
-                        self.potential_writes.append(client_socket)
                     # Reading from clients
                     else:
                         data = r.recv(self.read_size).decode('utf-8')
-                        is_nick_and_user = re.search("^NICK\s.*;USER\s.*\s.*\s.*\s.*", data)
-                        is_chat_message = re.search("^PRIVMSG\s#Global\s:.*", data)
-                        # Client is sending username and nickname, server must register them
-                        if is_nick_and_user:
-                            parsed_data = data.split(';')
-                            nick_data, user_data = parsed_data[0].split(), parsed_data[1].split()
-                            nick = nick_data[1]
-                            new_client = irc_client.IRCClient(nickname=nick, host=user_data[2], port=user_data[3])
-                            new_client.username = user_data[1]
-                            print(f"Client username is {new_client.username}")
-                            logger.info(f"Client {new_client.username} connected to server")
-                            self.client_list.append(new_client)
-                            reg_msg = f'{new_client.username} added to channel #Global'
-                            self.messages[r] += reg_msg
-                            if r not in self.potential_writes:
-                                self.potential_writes.append(r)
-                            #self.subscribers.append(new_client)
-                        # Send message to all clients on #Global channel
-                        elif is_chat_message:
-                            message = data[data.index(':')+1:]
-                            self.messages[r] += message
-                            if r not in self.potential_writes:
-                                self.potential_writes.append(r)
-                            # self.messages[r] += message
+                        print(f"Received {data} from {r.getpeername()}")
+                        print(f"Message_queues is \n{self.message_queues}")
+                        #self.message_queues[r] = queue.Queue()
+                        self.message_queues[r].put(data)
+                        if r not in self.outputs:
+                            self.outputs.append(r)
+                        # is_nick_and_user = re.search("^NICK\s.*;USER\s.*\s.*\s.*\s.*", data)
+                        # is_chat_message = re.search("^PRIVMSG\s#Global\s:.*", data)
+                        # # Client is sending username and nickname, server must register them
+                        # if is_nick_and_user:
+                        #     parsed_data = data.split(';')
+                        #     nick_data, user_data = parsed_data[0].split(), parsed_data[1].split()
+                        #     nick = nick_data[1]
+                        #     new_client = irc_client.IRCClient(nickname=nick, host=user_data[2], port=user_data[3])
+                        #     new_client.username = user_data[1]
+                        #     print(f"Client username is {new_client.username}")
+                        #     logger.info(f"Client {new_client.username} connected to server")
+                        #     self.client_list.append(new_client)
+                        #     reg_msg = f'{new_client.username} added to channel #Global'
+                        #
+                        #     self.outbox[r] = reg_msg
+                        #     if r not in self.outputs:
+                        #         self.outputs.append(r)
+                        #     #self.subscribers.append(new_client)
+                        # # Send message to all clients on #Global channel
+                        # elif is_chat_message:
+                        #     message = data[data.index(':')+1:]
+                        #     self.messages[r] += message
+                        #     if r not in self.outputs:
+                        #         self.outputs.append(r)
+                        #     # self.messages[r] += message
                         # Data is empty
                         else:
-                            self.potential_reads.remove(r)
-                            if r in self.potential_writes:
-                                self.potential_writes.remove(r)
+                            self.inputs.remove(r)
+                            if r in self.outputs:
+                                self.outputs.remove(r)
                             r.close()
                             print(f"Closed a client socket: {r}")
                             logger.info(f"Closed a client socket: {r}")
-                            if r in self.outbox:
-                                del self.outbox[r]
-                            if r in self.messages:
-                                del self.messages[r]
-                for w in r_writes:
-                    msg = self.outbox[w]
-                    if len(msg):
-                        logger.info(f'Sending {msg} to {w.getpeername()}')
+                            del self.message_queues[r]
+                for w in writable:
+                    try:
+                        msg = self.message_queues[w].get_nowait()
+                    except KeyError:
+                        print(f"Client connection was closed")
+                    except queue.Empty:
+                        print(f"Output queue for {w.getpeername()} is empty")
+                        self.outputs.remove(w)
+                    else:
+                        print(f"Sending {msg} to {w.getpeername()}")
                         w.send(msg.encode())
-                        self._clear_outbox(w)
+                    # msg = self.outbox[w]
+                    # if len(msg):
+                    #     logger.info(f'Sending {msg} to {w.getpeername()}')
+                    #     w.send(msg.encode())
+                    #     self._clear_outbox(w)
                     #self.potential_writes.remove(w)
-                for err in r_errors:
-                    logger.error(f'Handling exception for {err.getpeername()}')
-                    self.potential_reads.remove(err)
-                    if err in self.potential_writes:
-                        self.potential_writes.remove(err)
+                for err in exceptional:
+                    print(f'Handling exception for {err.getpeername()}')
+                    self.inputs.remove(err)
+                    if err in self.outputs:
+                        self.outputs.remove(err)
                     err.close()
-                    del self.outbox[err]
+                    del self.message_queues[err]
 
         except KeyboardInterrupt:
             print(f"\nServer interrupted, closing socket connections")
@@ -121,7 +134,7 @@ class IRCServer(patterns.Publisher):
         (including server socket)
         """
         # self.server_socket.close() # might not need but faced problems without it
-        for s in self.potential_reads:
+        for s in self.inputs:
             s.close()
 
     def _parse_message(self, client):

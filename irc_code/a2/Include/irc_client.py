@@ -107,7 +107,7 @@ class IRCClient(patterns.Subscriber):
             print(f"\nServer interrupted, closing socket connections")
             self.close()
         except RuntimeError:
-            print(f"\Connection interrupted, closing socket connections")
+            print(f"\nConnection interrupted, closing socket connections")
             self.close()
 
     def close(self):
@@ -115,20 +115,21 @@ class IRCClient(patterns.Subscriber):
         logger.debug(f"Closing IRC Client object")
         pass
 
-
     def connect(self):
-        if (hasattr(self, 'nickname')):
+        if hasattr(self, 'nickname'):
             nick_msg = " ".join(["NICK", self.nickname])
 
         if hasattr(self, 'username') and hasattr(self, 'server_host') and hasattr(self, 'server_port'):
             user_msg = " ".join(["USER", self.username, self.server_host, self.server_port])
 
         if not(hasattr(self, 'server_socket')):
-            self.create_server_socket()
-            
-        msg = ";".join(nick_msg, user_msg)
+            self.connect_to_server()
+
+        logger.info(f"Nick: {nick_msg} User: {user_msg}")
+        msg = f"{nick_msg};{user_msg}"
         logger.info(f"Msg: {msg}")
-        self.server_socket.send(msg)
+        self.server_socket.send(msg.encode())
+        logger.info("NICK USER sent")
         self.is_connected = True
 
     def send_message(self, msg):
@@ -147,13 +148,11 @@ class IRCClient(patterns.Subscriber):
     #     self.potential_writes = list()
     #     self.potential_errors = list()
 
-    def create_server_socket(self):
+    def connect_to_server(self):
         self.server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        self.server_socket.setblocking(False) #server won't block at server_socket.accept()
         logger.info(f"connecting to socket at host:{self.server_host}:{self.server_port}")
         self.server_socket.connect((str(self.server_host), int(self.server_port)))
         logger.info(f"connected to server")
-        self.potential_reads.append(self.server_socket)
 
 
 def set_parser(): 

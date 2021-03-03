@@ -1,0 +1,1260 @@
+INFO:root:Running server at localhost:8081
+INFO:root:New client @ ('127.0.0.1', 53699)
+INFO:root:Sending Connected to server! to ('127.0.0.1', 53699)
+INFO:root:New client @ ('127.0.0.1', 53700)
+INFO:root:Client jay connected to server
+INFO:root:Client joe connected to server
+INFO:root:Sending Connected to server! to ('127.0.0.1', 53700)
+INFO:root:Closed a client socket: <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>
+INFO:root:Running server at localhost:8081
+INFO:root:New client @ ('127.0.0.1', 53713)
+INFO:root:Sending Connected to server! to ('127.0.0.1', 53713)
+INFO:root:New client @ ('127.0.0.1', 53714)
+INFO:root:Client jay connected to server
+INFO:root:Client joe connected to server
+INFO:root:Sending Connected to server! to ('127.0.0.1', 53714)
+INFO:root:Closed a client socket: <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>
+INFO:root:Running server at localhost:8081
+INFO:root:New client @ ('127.0.0.1', 53719)
+INFO:root:Sending Connected to server! to ('127.0.0.1', 53719)
+INFO:root:New client @ ('127.0.0.1', 53720)
+INFO:root:Client jay connected to server
+INFO:root:Client joe connected to server
+INFO:root:Sending Connected to server! to ('127.0.0.1', 53720)
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 104
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 48
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 49
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect jay localhost 8081 jay
+INFO:root:IRCClient.update -> msg: /connect jay localhost 8081 jay
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:New client @ ('127.0.0.1', 53752)
+INFO:root:Sending Connected to server! to ('127.0.0.1', 53752)
+DEBUG:root:Exiting context and closing View object
+DEBUG:root:Closing IRC Client object
+INFO:root:Closed a client socket: <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>
+INFO:root:Running server at localhost:8081
+INFO:root:New client @ ('127.0.0.1', 53921)
+INFO:root:Sending Connected to server! to ('127.0.0.1', 53921)
+INFO:root:New client @ ('127.0.0.1', 53922)
+INFO:root:Client jay connected to server
+INFO:root:Client joe connected to server
+INFO:root:Sending Connected to server! to ('127.0.0.1', 53922)
+INFO:root:Running server at localhost:8081
+INFO:root:New client @ ('127.0.0.1', 53933)
+INFO:root:Sending Connected to server! to ('127.0.0.1', 53933)
+INFO:root:New client @ ('127.0.0.1', 53934)
+INFO:root:Client jay connected to server
+INFO:root:Running server at localhost:8081
+INFO:root:New client @ ('127.0.0.1', 53943)
+INFO:root:Sending Connected to server! to ('127.0.0.1', 53943)
+INFO:root:New client @ ('127.0.0.1', 53944)
+INFO:root:Client jay connected to server
+INFO:root:Sending jay added to channel #Global to ('127.0.0.1', 53943)
+INFO:root:Client joe connected to server
+INFO:root:Sending joe added to channel #Global to ('127.0.0.1', 53944)
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:Character int: 75
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 69
+DEBUG:root:Character int: 114
+DEBUG:root:Character int: 114
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 114
+DEBUG:root:Character int: 58
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 60
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 107
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 46
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 107
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 91
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 100
+DEBUG:root:Character int: 93
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 102
+DEBUG:root:Character int: 100
+DEBUG:root:Character int: 61
+DEBUG:root:Character int: 45
+DEBUG:root:Character int: 49
+DEBUG:root:Character int: 44
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 102
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 109
+DEBUG:root:Character int: 105
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 61
+DEBUG:root:Character int: 65
+DEBUG:root:Character int: 100
+DEBUG:root:Character int: 100
+DEBUG:root:Character int: 114
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 70
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 109
+DEBUG:root:Character int: 105
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 46
+DEBUG:root:Character int: 65
+DEBUG:root:Character int: 70
+DEBUG:root:Character int: 95
+DEBUG:root:Character int: 73
+DEBUG:root:Character int: 78
+DEBUG:root:Character int: 69
+DEBUG:root:Character int: 84
+DEBUG:root:Character int: 44
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 112
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 61
+DEBUG:root:Character int: 83
+DEBUG:root:Signifies end of process
+DEBUG:root:Exiting context and closing View object
+DEBUG:root:Closing IRC Client object
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:Character int: 92
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 127
+DEBUG:root:Character int: 127
+DEBUG:root:Character int: 127
+DEBUG:root:Character int: 127
+DEBUG:root:Character int: 127
+DEBUG:root:Character int: 127
+DEBUG:root:Character int: 127
+DEBUG:root:Character int: 127
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 104
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 48
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 49
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect jay localhost 8081 jay
+INFO:root:IRCClient.update -> msg: /connect jay localhost 8081 jay
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:New client @ ('127.0.0.1', 53951)
+INFO:root:Sending Connected to server! to ('127.0.0.1', 53951)
+DEBUG:root:Exiting context and closing View object
+DEBUG:root:Closing IRC Client object
+INFO:root:Closed a client socket: <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line:      
+INFO:root:IRCClient.update -> msg:      
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line:      
+INFO:root:IRCClient.update -> msg:      
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 104
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 48
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 49
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect jay localhost 8081 jay
+INFO:root:IRCClient.update -> msg: /connect jay localhost 8081 jay
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:New client @ ('127.0.0.1', 53960)
+INFO:root:Sending Connected to server! to ('127.0.0.1', 53960)
+DEBUG:root:Exiting context and closing View object
+DEBUG:root:Closing IRC Client object
+INFO:root:Closed a client socket: <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 104
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 48
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 49
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect jay localhost 8081 jay
+INFO:root:IRCClient.update -> msg: /connect jay localhost 8081 jay
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:New client @ ('127.0.0.1', 54092)
+DEBUG:root:Exiting context and closing View object
+DEBUG:root:Closing IRC Client object
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 104
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 48
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 49
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect jay localhost 8081 jay
+INFO:root:IRCClient.update -> msg: /connect jay localhost 8081 jay
+INFO:root:connecting to socket at host:localhost:8081
+DEBUG:asyncio:Using selector: KqueueSelector
+INFO:root:New client @ ('127.0.0.1', 54126)
+DEBUG:root:Exiting context and closing View object
+DEBUG:root:Closing IRC Client object
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 104
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 48
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 49
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect jay localhost 8081 jay
+INFO:root:IRCClient.update -> msg: /connect jay localhost 8081 jay
+INFO:root:connecting to socket at host:localhost:8081
+DEBUG:asyncio:Using selector: KqueueSelector
+INFO:root:New client @ ('127.0.0.1', 54135)
+DEBUG:root:Exiting context and closing View object
+DEBUG:root:Closing IRC Client object
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 104
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 48
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 49
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect jay localhost 8081 jay
+INFO:root:IRCClient.update -> msg: /connect jay localhost 8081 jay
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:New client @ ('127.0.0.1', 54148)
+DEBUG:root:Exiting context and closing View object
+DEBUG:root:Closing IRC Client object
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 104
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 48
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 49
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect jay localhost 8081 jay
+INFO:root:IRCClient.update -> msg: /connect jay localhost 8081 jay
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:New client @ ('127.0.0.1', 54192)
+DEBUG:root:Exiting context and closing View object
+DEBUG:root:Closing IRC Client object
+INFO:root:Closed a client socket: <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 104
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 48
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 49
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect jay localhost 8081 jay
+INFO:root:IRCClient.update -> msg: /connect jay localhost 8081 jay
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:New client @ ('127.0.0.1', 54216)
+DEBUG:root:Exiting context and closing View object
+DEBUG:root:Closing IRC Client object
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 104
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 48
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 49
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect jay localhost 8081 jay
+INFO:root:IRCClient.update -> msg: /connect jay localhost 8081 jay
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:New client @ ('127.0.0.1', 54335)
+DEBUG:root:Exiting context and closing View object
+DEBUG:root:Closing IRC Client object
+INFO:root:Closed a client socket: <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>
+INFO:root:Running server at localhost:8081
+INFO:root:New client @ ('127.0.0.1', 54348)
+INFO:root:New client @ ('127.0.0.1', 54349)
+INFO:root:Closed a client socket: <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>
+INFO:root:Running server at localhost:8081
+INFO:root:New client @ ('127.0.0.1', 54356)
+INFO:root:New client @ ('127.0.0.1', 54357)
+INFO:root:Closed a client socket: <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 104
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 48
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 49
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect jay localhost 8081 jay
+INFO:root:IRCClient.update -> msg: /connect jay localhost 8081 jay
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:New client @ ('127.0.0.1', 54375)
+DEBUG:root:Exiting context and closing View object
+DEBUG:root:Closing IRC Client object
+INFO:root:Closed a client socket: <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>
+INFO:root:New client @ ('127.0.0.1', 54384)
+INFO:root:New client @ ('127.0.0.1', 54385)
+INFO:root:Closed a client socket: <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>
+INFO:root:Closed a client socket: <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 104
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 48
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 49
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect jay localhost 8081 jay
+INFO:root:IRCClient.update -> msg: /connect jay localhost 8081 jay
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:New client @ ('127.0.0.1', 54387)
+DEBUG:root:Exiting context and closing View object
+DEBUG:root:Closing IRC Client object
+INFO:root:Closed a client socket: <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 104
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 48
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 49
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect jay localhost 8081 jay
+INFO:root:IRCClient.update -> msg: /connect jay localhost 8081 jay
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:New client @ ('127.0.0.1', 55579)
+DEBUG:root:Closing IRC Client object
+DEBUG:root:Exiting context and closing View object
+DEBUG:root:Closing IRC Client object
+INFO:root:Closed a client socket: <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 104
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 48
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 49
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect jay localhost 8081 jay
+INFO:root:IRCClient.update -> msg: /connect jay localhost 8081 jay
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:New client @ ('127.0.0.1', 55595)
+DEBUG:root:Exiting context and closing View object
+DEBUG:root:Closing IRC Client object
+INFO:root:Closed a client socket: <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 104
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 48
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 49
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect jay localhost 8081 jay
+INFO:root:IRCClient.update -> msg: /connect jay localhost 8081 jay
+INFO:root:connecting to socket at host:localhost:8081
+DEBUG:root:Closing IRC Client object
+DEBUG:root:Exiting context and closing View object
+DEBUG:root:Closing IRC Client object
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 104
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 48
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 49
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect jay localhost 8081 jay
+INFO:root:IRCClient.update -> msg: /connect jay localhost 8081 jay
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:New client @ ('127.0.0.1', 55606)
+DEBUG:root:Closing IRC Client object
+DEBUG:root:Exiting context and closing View object
+DEBUG:root:Closing IRC Client object
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 104
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 48
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 49
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect jay localhost 8081 jay
+INFO:root:IRCClient.update -> msg: /connect jay localhost 8081 jay
+INFO:root:connecting to socket at host:localhost:8081
+DEBUG:root:Closing IRC Client object
+DEBUG:root:Exiting context and closing View object
+DEBUG:root:Closing IRC Client object
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 104
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 48
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 49
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect jay localhost 8081 jay
+INFO:root:IRCClient.update -> msg: /connect jay localhost 8081 jay
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:New client @ ('127.0.0.1', 55630)
+DEBUG:root:Closing IRC Client object
+DEBUG:root:Exiting context and closing View object
+DEBUG:root:Closing IRC Client object
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 104
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 48
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 49
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect jay localhost 8081 jay
+INFO:root:IRCClient.update -> msg: /connect jay localhost 8081 jay
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Out of connect
+INFO:root:New client @ ('127.0.0.1', 55664)
+DEBUG:root:Closing IRC Client object
+DEBUG:root:Exiting context and closing View object
+DEBUG:root:Closing IRC Client object
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 104
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 48
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 49
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect jay localhost 8081 jay
+INFO:root:IRCClient.update -> msg: /connect jay localhost 8081 jay
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK jay User: USER jay localhost 8081
+INFO:root:New client @ ('127.0.0.1', 55678)
+DEBUG:root:Closing IRC Client object
+DEBUG:root:Exiting context and closing View object
+DEBUG:root:Closing IRC Client object
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 104
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 48
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 49
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect jay localhost 8081 jay
+INFO:root:IRCClient.update -> msg: /connect jay localhost 8081 jay
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK jay User: USER jay localhost 8081
+INFO:root:Msg: NICK jay;USER jay localhost 8081
+INFO:root:New client @ ('127.0.0.1', 55693)
+DEBUG:root:Closing IRC Client object
+DEBUG:root:Exiting context and closing View object
+DEBUG:root:Closing IRC Client object
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 104
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 48
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 49
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect jay localhost 8081 jay
+INFO:root:IRCClient.update -> msg: /connect jay localhost 8081 jay
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK jay User: USER jay localhost 8081
+INFO:root:Msg: NICK jay;USER jay localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 55707)
+DEBUG:root:Closing IRC Client object
+DEBUG:root:Signifies end of process
+DEBUG:root:Exiting context and closing View object
+DEBUG:root:Closing IRC Client object
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 104
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 48
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 49
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect jay localhost 8081 jay
+INFO:root:IRCClient.update -> msg: /connect jay localhost 8081 jay
+INFO:root:connecting to socket at host:localhost:8081
+DEBUG:root:Closing IRC Client object
+DEBUG:root:Exiting context and closing View object
+DEBUG:root:Closing IRC Client object
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 104
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 48
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 49
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 121
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect jay localhost 8081 jay
+INFO:root:IRCClient.update -> msg: /connect jay localhost 8081 jay
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK jay User: USER jay localhost 8081
+INFO:root:Msg: NICK jay;USER jay localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 55739)
+DEBUG:root:Closing IRC Client object
