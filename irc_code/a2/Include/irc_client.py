@@ -119,7 +119,6 @@ class IRCClient(patterns.Subscriber):
         pass
 
     def connect(self):
-        if (hasattr(self, 'nickname')):
         if hasattr(self, 'nickname'):
             nick_msg = " ".join(["NICK", self.nickname])
 
@@ -127,11 +126,10 @@ class IRCClient(patterns.Subscriber):
             user_msg = " ".join(["USER", self.username, self.server_host, self.server_port])
 
         if not(hasattr(self, 'server_socket')):
-            create_server_socket(self)
+            connect_to_server(self)
             
         msg = ";".join(nick_msg, user_msg)
         self.server_socket.send(msg)
-            self.connect_to_server()
 
         logger.info(f"Nick: {nick_msg} User: {user_msg}")
         msg = f"{nick_msg};{user_msg}"
@@ -156,7 +154,6 @@ class IRCClient(patterns.Subscriber):
     #     self.potential_writes = list()
     #     self.potential_errors = list()
 
-    def create_server_socket(self):
     def connect_to_server(self):
         self.server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.server_socket.setblocking(False) #server won't block at server_socket.accept()
