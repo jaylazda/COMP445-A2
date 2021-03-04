@@ -12,6 +12,7 @@ Description:
 """
 import abc
 
+
 class Publisher:
 
     def __init__(self):
@@ -31,6 +32,7 @@ class Publisher:
         for s in self.subscribers:
             if hasattr(s, 'update'):
                 s.update(msg)
+
 
 class Subscriber:
 
