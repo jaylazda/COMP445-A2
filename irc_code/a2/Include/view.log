@@ -377,3 +377,4 @@ DEBUG:root:Character int: 114
 DEBUG:root:Character int: 10
 DEBUG:root:Input line: /connect joe localhost 8081 roger
 INFO:root:IRCClient.update -> msg: /connect joe localhost 8081 roger
+INFO:root:Running server at localhost:8081

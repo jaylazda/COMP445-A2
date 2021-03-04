@@ -133,7 +133,7 @@ class IRCClient(patterns.Subscriber):
 
     def send_message(self, msg):
         if self.is_connected:
-            msg = " ".join(["NOTICE", msg])
+            msg = " ".join(["PRIVMSG", msg])
             self.server_socket.send(msg)
 
     # def create_client_socket(self):
