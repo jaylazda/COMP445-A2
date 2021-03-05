@@ -44,6 +44,8 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *,cover
+view.log
+server.log
 
 # Translations
 *.mo

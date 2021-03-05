@@ -7,6 +7,7 @@ import sys
 import logging
 import re
 import queue
+import argparse
 
 import irc_client
 import patterns
@@ -31,8 +32,6 @@ class IRCServer(patterns.Publisher):
         self.inputs.append(self.server_socket)
         self.outputs = list()
         self.message_queues = {}
-        self.outbox = dict()
-        self.messages = dict()
         self.read_size = 2 ** 10
 
         self.client_list = list()
@@ -61,27 +60,22 @@ class IRCServer(patterns.Publisher):
                         self.message_queues[r] = queue.Queue()
                         if r not in self.outputs:
                             self.outputs.append(r)
-                        is_registration = re.search("^NICK\s.*;USER\s.*\s.*\s.*", data)
+                        is_registration = re.search("^NICK\s.*;USER\s.*\s.*\s.*\s.*", data)
                         is_chat_message = re.search("^PRIVMSG\s#Global\s:.*", data)
                         # Client is sending username and nickname, server must register them
+                        # Check if another client has the same username
                         if is_registration:
                             parsed_data = data.split(';')
                             nick_data, user_data = parsed_data[0].split(), parsed_data[1].split()
-                            nick = nick_data[1]
-                            new_client = irc_client.IRCClient(nickname=nick, host=user_data[2], port=user_data[3])
-                            new_client.username = user_data[1]
-                            print(f"Client username is {new_client.username}")
-                            logger.info(f"Client {new_client.username} connected to server")
-                            self.client_list.append(new_client)
-                            reg_msg = f'{new_client.username} joined the channel'
-                            self.message_queues[r].put(reg_msg)
-
+                            if not self.register_new_client(r, nick_data[1], user_data[1], user_data[2],
+                                                            user_data[3], user_data[4]):
+                                pass
                             if r not in self.outputs:
                                 self.outputs.append(r)
-                            self.add_subscriber(new_client)
+
                         # Send message to all clients on #Global channel
                         elif is_chat_message:
-                            msg = data[data.index(':')+1:]
+                            msg = data[data.index(':') + 1:]
                             self.message_queues[r].put(msg)
                             if r not in self.outputs:
                                 self.outputs.append(r)
@@ -104,9 +98,7 @@ class IRCServer(patterns.Publisher):
                         self.outputs.remove(w)
                     else:
                         print("Broadcasting message to #Global")
-                        self.broadcast_chat_message(w, msg)
-                        # Should use subscriber notify instead
-                        self.notify(msg)
+                        self.send_message(w, msg)
                 for err in exceptional:
                     print(f'Handling exception for {err.getpeername()}')
                     self.inputs.remove(err)
@@ -119,10 +111,6 @@ class IRCServer(patterns.Publisher):
             print(f"\nServer interrupted, closing socket connections")
             self.close()
 
-    def _clear_outbox(self, client_socket):
-        if client_socket in self.outbox:
-            self.outbox[client_socket] = str()
-
     def close(self):
         """
         Close all readable sockets
@@ -132,21 +120,18 @@ class IRCServer(patterns.Publisher):
         for s in self.inputs:
             s.close()
 
-    def _parse_message(self, client):
-        """
-        If message is bigger than the read size then it must be broken up
-        """
-        pass
+    def register_new_client(self, client_socket, nickname, username, host, port, real_name):
+        new_client = irc_client.IRCClient(nickname=nickname, host=host, port=port)
+        new_client.username = username
+        logger.info(f"Client {new_client.username} connected to server")
+        self.client_list.append(new_client)
+        reg_msg = f'{new_client.username} joined the channel'
+        self.message_queues[client_socket].put(reg_msg)
+        return True
 
-    def add_client_to_channel(self, client):
-        """
-        Add client to #global channel upon successful client connection/registration
-        """
-        pass
-
-    def broadcast_chat_message(self, client_socket, message):
+    def send_message(self, client_socket, message):
         for sock in self.inputs:
-            if sock != self.server_socket and socket != client_socket :
+            if sock != self.server_socket and (message.endswith("joined the channel") or sock != client_socket):
                 try:
                     sock.send(message.encode())
                 except:
@@ -154,18 +139,14 @@ class IRCServer(patterns.Publisher):
                     self.inputs.remove(sock)
 
 
+def set_parser():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--port', action="store", dest="port", default=8081, help="port to use, default is 8081")
+    return parser
+
+
 if __name__ == "__main__":
-    server_port = 8081
-    if len(sys.argv) > 2:
-        print('You have specified too many arguments')
-        sys.exit()
-    elif len(sys.argv) == 1:
-        pass
-    elif sys.argv[1] == '--help' or sys.argv[1] == '-h':
-        print('\nusage: irc_server.py [-h] [PORT]\nDefaults to port: 8081 if not'
-              'specified \n\noptional arguments:\n  -h, --help\t  Show this help message and exit\n  --port PORT\t  Port to use')
-        sys.exit()
-    elif str(sys.argv[1]).isdigit():
-        server_port = sys.argv[1]
-    server = IRCServer(server_port)
+    parser = set_parser()
+    args = parser.parse_args()
+    server = IRCServer(args.port)
     server.run()
