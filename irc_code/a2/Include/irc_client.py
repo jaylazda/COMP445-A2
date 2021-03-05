@@ -25,7 +25,6 @@ import argparse
 
 logging.basicConfig(filename='view.log', level=logging.DEBUG)
 logger = logging.getLogger()
-MSGLEN = 1000
 
 
 class IRCClient(patterns.Subscriber):
@@ -81,6 +80,9 @@ class IRCClient(patterns.Subscriber):
     def add_msg(self, msg):
         self.view.add_msg(self.nickname, msg)
 
+    def add_msg_from_other_user(self, nickname, msg):
+        self.view.add_msg(nickname, msg)
+
     async def run(self):
         """
         Driver of your IRC Client
@@ -97,7 +99,12 @@ class IRCClient(patterns.Subscriber):
                             if not data:
                                 print('\nDisconnected from chat server')
                             else:
-                                self.add_msg(data)
+                                if data.startswith("NICK"):
+                                    nickname = data.split(":")[0][5:]
+                                    message = data[len(nickname)+6:]
+                                    self.add_msg_from_other_user(nickname, message)
+                                else:
+                                    self.add_msg(data)
                         else:
                             pass
                 await asyncio.sleep(1)
@@ -159,6 +166,7 @@ def main(args):
     with view.View() as v:
         logger.info(f"Entered the context of a View object")
         client.set_view(v)
+        client.add_msg("Type /connect <username> <serverhost> <serverport> <realname> to connect to a server!")
         logger.debug(f"Passed View object to IRC Client")
         v.add_subscriber(client)
         logger.debug(f"IRC Client is subscribed to the View (to receive user input)")

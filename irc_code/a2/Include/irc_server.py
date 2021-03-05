@@ -34,7 +34,7 @@ class IRCServer(patterns.Publisher):
         self.message_queues = {}
         self.read_size = 2 ** 10
 
-        self.client_list = list()
+        self.client_list = dict()
 
     def run(self):
         print(f"Running server at localhost:{self.port}")
@@ -67,21 +67,26 @@ class IRCServer(patterns.Publisher):
                         if is_registration:
                             parsed_data = data.split(';')
                             nick_data, user_data = parsed_data[0].split(), parsed_data[1].split()
-                            if not self.register_new_client(r, nick_data[1], user_data[1], user_data[2],
-                                                            user_data[3], user_data[4]):
-                                pass
+                            self.register_new_client(r, nick_data[1], user_data[1], user_data[2],
+                                                     user_data[3], user_data[4])
+
                             if r not in self.outputs:
                                 self.outputs.append(r)
 
                         # Send message to all clients on #Global channel
                         elif is_chat_message:
                             msg = data[data.index(':') + 1:]
+                            for client_socket in self.client_list:
+                                print(f"client port: {client_socket} r port {r}")
+                                if client_socket == r:
+                                    msg = ":".join([f"NICK {self.client_list[client_socket].nickname}", msg])
                             self.message_queues[r].put(msg)
                             if r not in self.outputs:
                                 self.outputs.append(r)
                         # Data is empty
                         else:
                             self.inputs.remove(r)
+                            del self.client_list[r]
                             if r in self.outputs:
                                 self.outputs.remove(r)
                             r.close()
@@ -97,8 +102,12 @@ class IRCServer(patterns.Publisher):
                         print(f"Output queue for {w.getpeername()} is empty")
                         self.outputs.remove(w)
                     else:
-                        print("Broadcasting message to #Global")
-                        self.send_message(w, msg)
+                        if msg.startswith("The username "):
+                            print("Username already taken, requesting a new one")
+                            w.send(msg.encode())
+                        else:
+                            print("Broadcasting message to #Global")
+                            self.send_message_to_channel(w, msg)
                 for err in exceptional:
                     print(f'Handling exception for {err.getpeername()}')
                     self.inputs.remove(err)
@@ -121,15 +130,20 @@ class IRCServer(patterns.Publisher):
             s.close()
 
     def register_new_client(self, client_socket, nickname, username, host, port, real_name):
+        for client in self.client_list.values():
+            if client.username == username:
+                error_msg = f"The username {username} is already taken, please try a different one."
+                self.message_queues[client_socket].put(error_msg)
+                return False
         new_client = irc_client.IRCClient(nickname=nickname, host=host, port=port)
         new_client.username = username
         logger.info(f"Client {new_client.username} connected to server")
-        self.client_list.append(new_client)
+        self.client_list[client_socket] = new_client
         reg_msg = f'{new_client.username} joined the channel'
         self.message_queues[client_socket].put(reg_msg)
         return True
 
-    def send_message(self, client_socket, message):
+    def send_message_to_channel(self, client_socket, message):
         for sock in self.inputs:
             if sock != self.server_socket and (message.endswith("joined the channel") or sock != client_socket):
                 try:
