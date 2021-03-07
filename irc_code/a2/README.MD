@@ -4,6 +4,8 @@ USAGE OF THE APPLICATION
 
 -The application must be run using the provided venv.
 
+All necessary files are located in /Include
+
 -irc_server.py
 -The server can be run in the provided venv with no provided --port command, as it will default to 8081.
 
