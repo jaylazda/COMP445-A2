@@ -64,7 +64,7 @@ class IRCClient(patterns.Subscriber):
 
     def process_input(self, msg):
         # Will need to modify this
-        if msg.lower().startswith('/connect '):
+        if msg.lower().startswith('/connect'):
             self.add_msg(msg)
             self.connect()
 
