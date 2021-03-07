@@ -22,6 +22,8 @@ import patterns
 import view
 import argparse
 
+from threading import Thread
+
 logging.basicConfig(filename='view.log', level=logging.DEBUG)
 logger = logging.getLogger()
 MSGLEN = 1000
@@ -36,11 +38,13 @@ class IRCClient(patterns.Subscriber):
         self.is_connected = False
         #create_client_socket(self)
 
-    def __init__(self, nickname, host, port):
+    def __init__(self, nickname, server_host, server_port, username, realname):
         super().__init__()
         self.nickname = nickname
-        self.host = host
-        self.port = port
+        self.server_host = server_host
+        self.server_port = server_port
+        self.username = username
+        self.realname = realname
         self._run = True
         self.is_connected = False
         #create_client_socket(self)
@@ -62,20 +66,12 @@ class IRCClient(patterns.Subscriber):
         # Will need to modify this
         if msg.lower().startswith('/connect '):
             self.add_msg(msg)
-            split_string = msg.split(" ")
-            if len(split_string) > 4:
-                self.username = split_string[1]
-                self.server_host = split_string[2]
-                self.server_port = split_string[3]
-                self.real_name = split_string[4]
-                connect(self)
-                self.connect()
+            self.connect()
 
         if msg.lower().startswith('/msg '):
             self.add_msg(msg)
             split_string = msg.split('/msg ', 1)
             if len(split_string) == 2:
-                send_message(self, msg)
                 self.send_message(self, msg)
 
         if msg.lower().startswith('/quit'):
@@ -93,25 +89,21 @@ class IRCClient(patterns.Subscriber):
             while True:
                 self.add_msg("here")
                 if hasattr(self, 'server_socket'):
-                    chunks = []
-                    bytes_recd = 0
-                    while bytes_recd < MSGLEN:
-                        chunk = self.server_socket.recv(min(MSGLEN - bytes_recd, 2048))
-                        if chunk == b'':
-                            raise RuntimeError("socket connection broken")
-                        chunks.append(chunk)
-                        bytes_recd = bytes_recd + len(chunk)
-                    message = b''.join(chunks)
-                    self.add_msg(message)
+                    self.add_msg("awaiting")
+                    data = self.server_socket.recv(4096)
+                    self.add_msg("got it")
+                    if not data :
+                        print ('Disconnected from chat server')
+                    self.add_msg(data)
                 await asyncio.sleep(2)
-
         except KeyboardInterrupt:
-            print(f"\nServer interrupted, closing socket connections")
+            self.add_msg(f"\nServer interrupted, closing socket connections")
             self.close()
         except RuntimeError:
-            print(f"\Connection interrupted, closing socket connections")
-            print(f"\nConnection interrupted, closing socket connections")
+            self.add_msg(f"\nConnection interrupted, closing socket connections")
             self.close()
+        except Exception as e:
+            self.add_msg("<p>Error: %s</p>" % str(e) ) 
 
     def close(self):
         # Terminate connection
@@ -123,13 +115,10 @@ class IRCClient(patterns.Subscriber):
             nick_msg = " ".join(["NICK", self.nickname])
 
         if hasattr(self, 'username') and hasattr(self, 'server_host') and hasattr(self, 'server_port'):
-            user_msg = " ".join(["USER", self.username, self.server_host, self.server_port])
+            user_msg = " ".join(["USER", self.username, self.server_host, self.server_port, self.realname])
 
         if not(hasattr(self, 'server_socket')):
-            connect_to_server(self)
-            
-        msg = ";".join(nick_msg, user_msg)
-        self.server_socket.send(msg)
+            self.connect_to_server()
 
         logger.info(f"Nick: {nick_msg} User: {user_msg}")
         msg = f"{nick_msg};{user_msg}"
@@ -140,8 +129,8 @@ class IRCClient(patterns.Subscriber):
 
     def send_message(self, msg):
         if self.is_connected:
-            msg = " ".join(["PRIVMSG", msg])
-            self.server_socket.send(msg)
+            msg = " ".join(["PRVMSG", msg])
+            self.server_socket.send(msg.encode())
 
     # def create_client_socket(self):
     #     self.client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -156,9 +145,6 @@ class IRCClient(patterns.Subscriber):
 
     def connect_to_server(self):
         self.server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        self.server_socket.setblocking(False) #server won't block at server_socket.accept()
-        self.server_socket.connect((self.server_host, self.server_port))
-        self.potential_reads.append(self.server_socket)
         logger.info(f"connecting to socket at host:{self.server_host}:{self.server_port}")
         self.server_socket.connect((str(self.server_host), int(self.server_port)))
         logger.info(f"connected to server")
@@ -167,13 +153,15 @@ class IRCClient(patterns.Subscriber):
 def set_parser(): 
     parser = argparse.ArgumentParser()
     parser.add_argument('--nickname', action="store", dest="nickname", default="client_01")
-    parser.add_argument('--host', action="store", dest="host", default="localhost")
-    parser.add_argument('--port', action="store", dest="port", default="1337")
+    parser.add_argument('--host', action="store", dest="server_host", default="localhost")
+    parser.add_argument('--port', action="store", dest="server_port", default="8081")
+    parser.add_argument('--username', action="store", dest="username", default="xxN00bDestroyerxx")
+    parser.add_argument('--realname', action="store", dest="realname", default="Joe Tremblay")
     return parser  
 
 def main(args):
     # Pass your arguments where necessary
-    client = IRCClient(args.nickname, args.host, args.port)
+    client = IRCClient(args.nickname, args.server_host, args.server_port, args.username, args.realname)
     logger.info(f"Client object created")
     with view.View() as v:
         logger.info(f"Entered the context of a View object")

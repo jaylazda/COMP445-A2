@@ -68,7 +68,8 @@ class IRCServer(patterns.Publisher):
                             parsed_data = data.split(';')
                             nick_data, user_data = parsed_data[0].split(), parsed_data[1].split()
                             nick = nick_data[1]
-                            new_client = irc_client.IRCClient(nickname=nick, host=user_data[2], port=user_data[3])
+
+                            new_client = irc_client.IRCClient(nickname=nick, server_host=user_data[2], server_port=user_data[3], username = user_data[1], realname = user_data[5])
                             new_client.username = user_data[1]
                             print(f"Client username is {new_client.username}")
                             logger.info(f"Client {new_client.username} connected to server")

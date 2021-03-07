@@ -1934,3 +1934,2897 @@ DEBUG:root:Passed View object to IRC Client
 DEBUG:root:IRC Client is subscribed to the View (to receive user input)
 DEBUG:asyncio:Using selector: SelectSelector
 INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 104
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 48
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 49
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 114
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 103
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 114
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect joe localhost 8081 roeger
+INFO:root:IRCClient.update -> msg: /connect joe localhost 8081 roeger
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 104
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 114
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 103
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 114
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect joe localhost roger
+INFO:root:IRCClient.update -> msg: /connect joe localhost roger
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 104
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 48
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 49
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 114
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 103
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 114
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect joe localhost 8081 roger
+INFO:root:IRCClient.update -> msg: /connect joe localhost 8081 roger
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 104
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 50
+DEBUG:root:Character int: 48
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect joe localhost 20
+INFO:root:IRCClient.update -> msg: /connect joe localhost 20
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 104
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 48
+DEBUG:root:Character int: 56
+DEBUG:root:Character int: 49
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 114
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 103
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 114
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect joe localhost 8081 roger
+INFO:root:IRCClient.update -> msg: /connect joe localhost 8081 roger
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 60151)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 114
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect
+INFO:root:IRCClient.update -> msg: /connect
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect
+INFO:root:IRCClient.update -> msg: /connect
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+DEBUG:root:Exiting context and closing View object
+DEBUG:root:Closing IRC Client object
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect
+INFO:root:IRCClient.update -> msg: /connect
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect
+INFO:root:IRCClient.update -> msg: /connect
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 60749)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 60837)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 112
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /cpo
+INFO:root:IRCClient.update -> msg: /cpo
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 60862)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 60877)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 60898)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 60989)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 61025)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect
+INFO:root:IRCClient.update -> msg: /connect
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 112
+DEBUG:root:Character int: 109
+DEBUG:root:Character int: 109
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /cpmme
+INFO:root:IRCClient.update -> msg: /cpmme
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 61333)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 61368)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 67
+DEBUG:root:Character int: 79
+DEBUG:root:Character int: 78
+DEBUG:root:Character int: 78
+DEBUG:root:Character int: 69
+DEBUG:root:Character int: 67
+DEBUG:root:Character int: 84
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /CONNECT
+INFO:root:IRCClient.update -> msg: /CONNECT
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 61398)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 67
+DEBUG:root:Character int: 79
+DEBUG:root:Character int: 78
+DEBUG:root:Character int: 78
+DEBUG:root:Character int: 69
+DEBUG:root:Character int: 67
+DEBUG:root:Character int: 84
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /CONNECT 
+INFO:root:IRCClient.update -> msg: /CONNECT 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 61570)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 61594)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 61625)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+DEBUG:root:Character int: 47
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /test
+INFO:root:IRCClient.update -> msg: /test
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 61704)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 112
+DEBUG:root:Character int: 109
+DEBUG:root:Character int: 109
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /cpmme
+INFO:root:IRCClient.update -> msg: /cpmme
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 61752)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 61839)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 61865)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 61935)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect
+INFO:root:IRCClient.update -> msg: /connect
+DEBUG:root:Character int: 46
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: ./c
+INFO:root:IRCClient.update -> msg: ./c
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 62025)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 62047)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 114
+DEBUG:root:Character int: 117
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /run
+INFO:root:IRCClient.update -> msg: /run
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 62317)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 62338)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:New client @ ('127.0.0.1', 62351)
+INFO:root:NICK USER sent
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 62382)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:New client @ ('127.0.0.1', 62422)
+INFO:root:NICK USER sent
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 62455)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 62518)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 62563)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 62620)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 62671)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /conne c
+INFO:root:IRCClient.update -> msg: /conne c
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 62759)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:IRCClient.update -> msg: joe joined the channel
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_02 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_02;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 62765)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:IRCClient.update -> msg: joe joined the channel
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 109
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 103
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 106
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 109
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 109
+DEBUG:root:Character int: 97
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /msg joe mama
+INFO:root:IRCClient.update -> msg: /msg joe mama
+DEBUG:root:Exiting context and closing View object
+DEBUG:root:Closing IRC Client object
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:New client @ ('127.0.0.1', 62826)
+INFO:root:NICK USER sent
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+DEBUG:root:Exiting context and closing View object
+DEBUG:root:Closing IRC Client object
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 62877)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+DEBUG:root:Exiting context and closing View object
+DEBUG:root:Closing IRC Client object
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 112
+DEBUG:root:Character int: 109
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /cpmn
+INFO:root:IRCClient.update -> msg: /cpmn
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /coo
+INFO:root:IRCClient.update -> msg: /coo
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 62924)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 109
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 103
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 104
+DEBUG:root:Character int: 105
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /msg hi
+INFO:root:IRCClient.update -> msg: /msg hi
+DEBUG:root:Exiting context and closing View object
+DEBUG:root:Closing IRC Client object
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 62964)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 112
+DEBUG:root:Character int: 114
+DEBUG:root:Character int: 105
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /pri
+INFO:root:IRCClient.update -> msg: /pri
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 109
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 103
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 104
+DEBUG:root:Character int: 105
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /msg hi
+INFO:root:IRCClient.update -> msg: /msg hi
+DEBUG:root:Exiting context and closing View object
+DEBUG:root:Closing IRC Client object
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 63018)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 63089)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 63230)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:New client @ ('127.0.0.1', 63273)
+INFO:root:NICK USER sent
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 63341)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 63363)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /conneect 
+INFO:root:IRCClient.update -> msg: /conneect 
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 63404)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+DEBUG:root:Exiting context and closing View object
+DEBUG:root:Closing IRC Client object
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 108
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: sel
+INFO:root:IRCClient.update -> msg: sel
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 63439)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+DEBUG:root:Exiting context and closing View object
+DEBUG:root:Closing IRC Client object
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 63447)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 63471)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 63493)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 46
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: ./connec
+INFO:root:IRCClient.update -> msg: ./connec
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: 
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 63512)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 63547)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 63574)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 63585)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 63621)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 63644)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 63672)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 109
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 103
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /msg
+INFO:root:IRCClient.update -> msg: /msg
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connt
+INFO:root:IRCClient.update -> msg: /connt
+DEBUG:root:Character int: 46
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: .
+INFO:root:IRCClient.update -> msg: .
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 63754)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /test
+INFO:root:IRCClient.update -> msg: /test
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 63902)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 63929)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER joe localhost 8081
+INFO:root:Msg: NICK client_01;USER joe localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 63950)
+INFO:root:Client joe connected to server
+INFO:root:IRCClient.update -> msg: joe joined the channel
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect
+INFO:root:IRCClient.update -> msg: /connect
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER xxN00bDestroyerxx localhost 8081
+INFO:root:Msg: NICK client_01;USER xxN00bDestroyerxx localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 64109)
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER xxN00bDestroyerxx localhost 8081
+INFO:root:Msg: NICK client_01;USER xxN00bDestroyerxx localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 64264)
+INFO:root:Client xxN00bDestroyerxx connected to server
+INFO:root:IRCClient.update -> msg: xxN00bDestroyerxx joined the channel
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER xxN00bDestroyerxx localhost 8081
+INFO:root:Msg: NICK client_01;USER xxN00bDestroyerxx localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 64289)
+INFO:root:Client xxN00bDestroyerxx connected to server
+INFO:root:IRCClient.update -> msg: xxN00bDestroyerxx joined the channel
+DEBUG:root:Character int: 100
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 102
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 100
+DEBUG:root:Character int: 102
+DEBUG:root:Character int: 103
+DEBUG:root:Character int: 115
+DEBUG:root:Character int: 100
+DEBUG:root:Character int: 102
+DEBUG:root:Character int: 103
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /conncet 
+INFO:root:IRCClient.update -> msg: /conncet 
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER xxN00bDestroyerxx localhost 8081
+INFO:root:Msg: NICK client_01;USER xxN00bDestroyerxx localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 64316)
+INFO:root:Client xxN00bDestroyerxx connected to server
+INFO:root:IRCClient.update -> msg: xxN00bDestroyerxx joined the channel
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER xxN00bDestroyerxx localhost 8081
+INFO:root:Msg: NICK client_01;USER xxN00bDestroyerxx localhost 8081
+INFO:root:New client @ ('127.0.0.1', 64338)
+INFO:root:NICK USER sent
+INFO:root:Client xxN00bDestroyerxx connected to server
+INFO:root:IRCClient.update -> msg: xxN00bDestroyerxx joined the channel
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER xxN00bDestroyerxx localhost 8081
+INFO:root:Msg: NICK client_01;USER xxN00bDestroyerxx localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 64367)
+INFO:root:Client xxN00bDestroyerxx connected to server
+INFO:root:IRCClient.update -> msg: xxN00bDestroyerxx joined the channel
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER xxN00bDestroyerxx localhost 8081
+INFO:root:Msg: NICK client_01;USER xxN00bDestroyerxx localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 64587)
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER xxN00bDestroyerxx localhost 8081
+INFO:root:Msg: NICK client_01;USER xxN00bDestroyerxx localhost 8081
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 64628)
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect
+INFO:root:IRCClient.update -> msg: /connect
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 8
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: c
+INFO:root:IRCClient.update -> msg: c
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER xxN00bDestroyerxx localhost 8081 Joe Tremblay
+INFO:root:Msg: NICK client_01;USER xxN00bDestroyerxx localhost 8081 Joe Tremblay
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 64737)
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER xxN00bDestroyerxx localhost 8081 Joe Tremblay
+INFO:root:Msg: NICK client_01;USER xxN00bDestroyerxx localhost 8081 Joe Tremblay
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 64866)
+INFO:root:Client xxN00bDestroyerxx connected to server
+INFO:root:IRCClient.update -> msg: xxN00bDestroyerxx joined the channel
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER xxN00bDestroyerxx localhost 8081 Joe Tremblay
+INFO:root:Msg: NICK client_01;USER xxN00bDestroyerxx localhost 8081 Joe Tremblay
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 64959)
+INFO:root:Client xxN00bDestroyerxx connected to server
+INFO:root:IRCClient.update -> msg: xxN00bDestroyerxx joined the channel
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER xxN00bDestroyerxx localhost 8081 Joe Tremblay
+INFO:root:Msg: NICK client_01;USER xxN00bDestroyerxx localhost 8081 Joe Tremblay
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 64983)
+INFO:root:Client xxN00bDestroyerxx connected to server
+INFO:root:IRCClient.update -> msg: xxN00bDestroyerxx joined the channel
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER xxN00bDestroyerxx localhost 8081 Joe Tremblay
+INFO:root:Msg: NICK client_01;USER xxN00bDestroyerxx localhost 8081 Joe Tremblay
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 49200)
+INFO:root:Client xxN00bDestroyerxx connected to server
+INFO:root:IRCClient.update -> msg: xxN00bDestroyerxx joined the channel
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER xxN00bDestroyerxx localhost 8081 Joe Tremblay
+INFO:root:Msg: NICK client_01;USER xxN00bDestroyerxx localhost 8081 Joe Tremblay
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 49284)
+INFO:root:Client xxN00bDestroyerxx connected to server
+INFO:root:IRCClient.update -> msg: xxN00bDestroyerxx joined the channel
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER xxN00bDestroyerxx localhost 8081 Joe Tremblay
+INFO:root:Msg: NICK client_01;USER xxN00bDestroyerxx localhost 8081 Joe Tremblay
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 49832)
+INFO:root:Client xxN00bDestroyerxx connected to server
+INFO:root:IRCClient.update -> msg: xxN00bDestroyerxx joined the channel
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 47
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:New client @ ('127.0.0.1', 50094)
+DEBUG:root:Exiting context and closing View object
+DEBUG:root:Closing IRC Client object
+INFO:root:Closed a client socket: <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER xxN00bDestroyerxx localhost 8081 Joe Tremblay
+INFO:root:Msg: NICK client_01;USER xxN00bDestroyerxx localhost 8081 Joe Tremblay
+INFO:root:New client @ ('127.0.0.1', 50116)
+INFO:root:Client xxN00bDestroyerxx connected to server
+INFO:root:IRCClient.update -> msg: xxN00bDestroyerxx joined the channel
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER xxN00bDestroyerxx localhost 8081 Joe Tremblay
+INFO:root:Msg: NICK client_01;USER xxN00bDestroyerxx localhost 8081 Joe Tremblay
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 50127)
+INFO:root:Client xxN00bDestroyerxx connected to server
+INFO:root:IRCClient.update -> msg: xxN00bDestroyerxx joined the channel
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER xxN00bDestroyerxx localhost 8081 Joe Tremblay
+INFO:root:Msg: NICK client_01;USER xxN00bDestroyerxx localhost 8081 Joe Tremblay
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 50167)
+INFO:root:Client xxN00bDestroyerxx connected to server
+INFO:root:IRCClient.update -> msg: xxN00bDestroyerxx joined the channel
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER xxN00bDestroyerxx localhost 8081 Joe Tremblay
+INFO:root:Msg: NICK client_01;USER xxN00bDestroyerxx localhost 8081 Joe Tremblay
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 50183)
+INFO:root:Client xxN00bDestroyerxx connected to server
+INFO:root:IRCClient.update -> msg: xxN00bDestroyerxx joined the channel
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER xxN00bDestroyerxx localhost 8081 Joe Tremblay
+INFO:root:Msg: NICK client_01;USER xxN00bDestroyerxx localhost 8081 Joe Tremblay
+INFO:root:NICK USER sent
+27.0.0.1', 50232)
+INFO:root:Client xxN00bDestroyerxx connected to server
+INFO:root:IRCClient.update -> msg: xxN00bDestroyerxx joined the channel
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /conneect 
+INFO:root:IRCClient.update -> msg: /conneect 
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+INFO:root:connecting to socket at host:localhost:8081
+INFO:root:connected to server
+INFO:root:Nick: NICK client_01 User: USER xxN00bDestroyerxx localhost 8081 Joe Tremblay
+INFO:root:Msg: NICK client_01;USER xxN00bDestroyerxx localhost 8081 Joe Tremblay
+INFO:root:NICK USER sent
+INFO:root:New client @ ('127.0.0.1', 50325)
+INFO:root:Client xxN00bDestroyerxx connected to server
+INFO:root:IRCClient.update -> msg: xxN00bDestroyerxx joined the channel
+INFO:root:Running server at localhost:8081
+INFO:root:Client object created
+INFO:root:Entered the context of a View object
+DEBUG:root:Passed View object to IRC Client
+DEBUG:root:IRC Client is subscribed to the View (to receive user input)
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Character int: 47
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 111
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 110
+DEBUG:root:Character int: 101
+DEBUG:root:Character int: 99
+DEBUG:root:Character int: 116
+DEBUG:root:Character int: 32
+DEBUG:root:Character int: 10
+DEBUG:root:Input line: /connect 
+INFO:root:IRCClient.update -> msg: /connect 
+DEBUG:root:Exiting context and closing View object
+DEBUG:root:Closing IRC Client object
