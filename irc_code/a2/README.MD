@@ -23,3 +23,5 @@ join the channel and will need to connect with a different username.
 /msg <message here> will send a message to all the clients on the channel if the client is connected to the #Global channel.
 
 /quit lets the user quit and deregister from the #Global channel
+
+** NOTICE: Will only run properly on MacOS or Linux, Select has problems with Windows when accepting user input **
