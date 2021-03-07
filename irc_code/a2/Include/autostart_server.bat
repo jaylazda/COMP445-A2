@@ -1,2 +1,0 @@
-@echo off
-cmd /k "cd /d C:\Users\Spam\Desktop\School\COMP 445\A2\a2_git\COMP445-A2\irc_code\a2\Scripts & activate & cd /d    C:\Users\Spam\Desktop\School\COMP 445\A2\a2_git\COMP445-A2\irc_code\a2\Include & python irc_server.py"

@@ -12,7 +12,7 @@ import argparse
 import irc_client
 import patterns
 
-logging.basicConfig(filename='server.log', level=logging.DEBUG)
+logging.basicConfig(filename='view.log', level=logging.DEBUG)
 logger = logging.getLogger()
 
 
@@ -102,7 +102,7 @@ class IRCServer(patterns.Publisher):
                         print(f"Output queue for {w.getpeername()} is empty")
                         self.outputs.remove(w)
                     else:
-                        if msg.startswith("The username "):
+                        if msg.startswith("NOTICE"):
                             print("Username already taken, requesting a new one")
                             w.send(msg.encode())
                         else:
@@ -132,20 +132,20 @@ class IRCServer(patterns.Publisher):
     def register_new_client(self, client_socket, nickname, username, host, port, real_name):
         for client in self.client_list.values():
             if client.username == username:
-                error_msg = f"The username {username} is already taken, please try a different one."
+                error_msg = f"NOTICE The username {username} is already taken, please try a different one."
                 self.message_queues[client_socket].put(error_msg)
                 return False
         new_client = irc_client.IRCClient(nickname=nickname, host=host, port=port)
         new_client.username = username
         logger.info(f"Client {new_client.username} connected to server")
         self.client_list[client_socket] = new_client
-        reg_msg = f'{new_client.username} joined the channel'
+        reg_msg = f'{new_client.username} joined the #Global channel'
         self.message_queues[client_socket].put(reg_msg)
         return True
 
     def send_message_to_channel(self, client_socket, message):
         for sock in self.inputs:
-            if sock != self.server_socket and (message.endswith("joined the channel") or sock != client_socket):
+            if sock != self.server_socket and (message.endswith("joined the #Global channel") or sock != client_socket):
                 try:
                     sock.send(message.encode())
                 except:

@@ -80,7 +80,7 @@ class IRCClient(patterns.Subscriber):
     def add_msg(self, msg):
         self.view.add_msg(self.nickname, msg)
 
-    def add_msg_from_other_user(self, nickname, msg):
+    def add_msg_from_other(self, nickname, msg):
         self.view.add_msg(nickname, msg)
 
     async def run(self):
@@ -102,7 +102,12 @@ class IRCClient(patterns.Subscriber):
                                 if data.startswith("NICK"):
                                     nickname = data.split(":")[0][5:]
                                     message = data[len(nickname)+6:]
-                                    self.add_msg_from_other_user(nickname, message)
+                                    self.add_msg_from_other(nickname, message)
+                                elif data.startswith("NOTICE"):
+                                    err_msg = data[7:]
+                                    self.add_msg_from_other("server", err_msg)
+                                elif data.endswith("joined the #Global channel"):
+                                    self.add_msg_from_other("server", data)
                                 else:
                                     self.add_msg(data)
                         else:
@@ -141,8 +146,7 @@ class IRCClient(patterns.Subscriber):
     def send_message(self, msg):
         if self.is_connected:
             msg = "".join(["PRIVMSG #Global :", msg])
-            logger.info(f"Sending message {msg} to server")
-            logger.info(f"Server socket is {self.server_socket}")
+            logger.info(f"Sending message {msg} to #Global on server {self.server_socket}")
             self.server_socket.send(msg.encode())
 
     def connect_to_server(self):
@@ -154,7 +158,8 @@ class IRCClient(patterns.Subscriber):
 
 def set_parser(): 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--nickname', action="store", dest="nickname", default="client_01")
+    parser.add_argument('--nickname', action="store", dest="nickname", type=lambda x: x if len(x) <= 9 else False,
+                        default="client_01")
     parser.add_argument('--host', action="store", dest="host", default="localhost", help="server hostname")
     parser.add_argument('--port', action="store", dest="port", default=8081, help="server port number")
     return parser  
@@ -166,7 +171,9 @@ def main(args):
     with view.View() as v:
         logger.info(f"Entered the context of a View object")
         client.set_view(v)
-        client.add_msg("Type /connect <username> <serverhost> <serverport> <realname> to connect to a server!")
+        client.add_msg_from_other("info",
+                                  "Type /connect <username> <serverhost> <serverport> <realname> to connect to a "
+                                  "server!")
         logger.debug(f"Passed View object to IRC Client")
         v.add_subscriber(client)
         logger.debug(f"IRC Client is subscribed to the View (to receive user input)")
@@ -185,5 +192,6 @@ def main(args):
 if __name__ == "__main__":
     parser = set_parser()
     args = parser.parse_args()
-
+    if not args.nickname:
+        sys.exit('Error: nickname can not be greater than 9 characters long')
     main(args)
